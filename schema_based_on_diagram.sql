@@ -51,6 +51,6 @@ treatments_id INT REFERENCES treatements(id)
 CREATE INDEX patients_index ON medical_histories(patient_id);
 CREATE INDEX medical_histories_index ON invoices(medical_histories_id);
 CREATE INDEX invoices_index ON invoice_items(invoice_id);
-CREATE INDEX treatements_index ON invoice_items(treatement_id);
+CREATE INDEX treatments_index ON invoice_items(treatment_id);
 CREATE INDEX history_index ON histories_treatments(history_id);
 CREATE INDEX treatment_index ON histories_treatments(treatments_id);
