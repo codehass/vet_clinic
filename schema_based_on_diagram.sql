@@ -44,7 +44,7 @@ CREATE TABLE invoice_items (
 
 CREATE TABLE histories_treatments (
 history_id INT REFERENCES medical_histories(id),
-treatments_id INT REFERENCES treatements(id)
+treatments_id INT REFERENCES treatments(id)
 );
 
 -- Remember to add the FK indexes.
