@@ -44,6 +44,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
 **[Vet clinic]** Vet clinic database is a project about using a relational database to create the data structure for a vet clinic. Starting with one table, and step by step will create a complete database with data about animals, animals' owners, vets, vet's specialties, and visits.
 
 ## 🛠 Built With <a name="built-with">PostgreSQL</a>
+### Diagram
+
+![diagram](https://user-images.githubusercontent.com/92850366/221991937-a418bd32-c766-4a10-ab8e-dd6d5ebb7e1d.png)
 
 ### Tech Stack <a name="tech-stack">SQL</a>
 
